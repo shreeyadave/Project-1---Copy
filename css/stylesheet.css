@@ -1,0 +1,161 @@
+:root{
+    bgc: #2874f0;
+}
+/* ::-webkit-scrollbar{
+    /* display: none; */
+    /* width: 0; */
+ 
+
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+footer{
+    background-color: black;
+    color: white;
+    height: 12vh;
+    float:inline-end;
+}
+header{
+    background-color: #2874f0;
+    height: 12vh;
+}
+nav ul li{
+    list-style: none;
+    margin: 5vh;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 2vh;
+    box-sizing: content-box;
+    width: 11vh;
+}
+nav ul li:hover{
+    font-weight: bolder;
+    
+}
+nav ul{
+    display: flex;
+    justify-self: left;
+    align-items: center;
+    column-gap: 20px;
+    
+}
+header{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+}
+.logo img{
+    width: 17vh;
+    padding: 0 25px;
+}
+.search{
+    width: 40vh;
+}
+.main{
+    min-height: 76vh;
+    background-color: white;    
+}
+.btn{
+    margin: 0;
+    cursor: pointer;
+}
+.slider{
+    margin: 12px auto;
+    width: 80vw;
+}
+.slider img{
+    display: block;
+    height: 200px;
+    margin: auto;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.card{
+    background-color: white;
+    display: flex;
+    width: 1400px;
+    margin-bottom: 3vh;
+    margin-left: 12px;
+    margin-right: 12px;
+    padding: 20px;
+    justify-content: flex-start;
+    overflow:scroll
+}
+.card-item{
+    display: flex;
+    width: 150vh;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 2vh;
+}
+.title{
+    margin: 2vh 0;
+}
+#slider_container{
+    width: 196vw;
+    height: 30vh;
+    background-color: wheat;
+    position: relative;
+    top:10vh;
+    margin:0 0;
+    overflow: hidden;
+    display: flex;
+    transform: translate(-98vw);
+    border: 2px solid black;
+}
+.slider{
+    display: flex;
+    width: 98%;
+    justify-content: center;
+    align-items: center;
+    animation: slider_moving 3s ease-in-out infinite ;
+    
+}
+.image img{
+    width: 30vw;
+    height: 30vh;
+    filter: drop-shadow(2px 4px 0px black);
+}
+#prev{
+    position: absolute;
+    top: 36%;
+    left: 2%;
+    background-color: white;
+    padding: 7px;
+    border-radius: 20px;
+    filter: drop-shadow(2px 4px 6px black);
+}
+#next{
+    position: absolute;
+    top: 36%;
+    right: 2%;
+    background-color: white;
+    padding: 7px;
+    border-radius: 20px;
+    filter: drop-shadow(2px 4px 6px black);
+}
+
+@keyframes slider_moving {
+    form{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(98vw);
+    }
+    
+}
+#slider1{
+    align-self: center;
+}
